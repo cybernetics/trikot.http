@@ -1,7 +1,9 @@
 package com.mirego.trikot.http
 
+import com.mirego.trikot.foundation.CommonJSExport
 import kotlin.js.JsName
 
+@CommonJSExport
 interface HttpRequestFactory {
     /**
      * Create an HttpRequest for a request builder
